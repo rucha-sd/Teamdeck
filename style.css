@@ -73,7 +73,7 @@ input {
   
   .input--style-3 {
     font-size: 14px;
-    color: #ccc;
+    color: rgb(143, 141, 141);
     background: transparent;
   }
   
@@ -161,3 +161,8 @@ input {
       width:40%;
       margin:30%
   }
+
+  .btn:focus{
+    box-shadow: none;
+    outline: none;
+}
